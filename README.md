@@ -16,7 +16,7 @@ composer require c7v/yii-yandex-turbo-pages-api
 ```
 
 ## Примеры использования:
-Класс Turbo наследован от yii\base\Component, можно использовать как компанен Yii:
+Класс Turbo наследован от yii\base\Component, можно использовать как компонент Yii:
 
 ```php
 [
