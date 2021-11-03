@@ -1,5 +1,5 @@
 {
-    "name": "c7v/yii-yandex-turbo-pages-api",
+    "name": "c7v/yii_yandex_turbo_pages_api",
     "description": "Uploading RSS feeds via Yandex API",
     "type": "package",
     "require": {
