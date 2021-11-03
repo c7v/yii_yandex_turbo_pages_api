@@ -24,7 +24,7 @@ composer require c7v/yii-yandex-turbo-pages-api
     'components' => [
         ...
         'turbo' => [
-            'class' => 'yii\rbac\DbManager',
+            'class' => 'c7v\yii_yandex_turbo_pages_api\webmaster\Turbo',
             'token' => 'AQAAAAAZC7gVAAd6mP8Mc6eКeEn4tMqZL2NsZ21',
             'host' => 'https:temj.ru:443',
         ],
