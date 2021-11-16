@@ -73,7 +73,7 @@ class Turbo extends Component
      */
     public function getUploadAddress(int $id_user) {
         $this->response = $this->request
-            ->setUrl('user/' . $id_user . '/hosts/' . $this->host . '/turbo/uploadAddress')
+            ->setUrl('user/' . $id_user . '/hosts/' . $this->host . '/turbo/uploadAddress?mode=PRODUCTION')
             ->send();
 
         if ($this->response->getIsOk()) {

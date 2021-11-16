@@ -6,7 +6,7 @@
         "php": ">=7.1",
         "yiisoft/yii2-httpclient": "~2.0.0"
     },
-    "license": "BSD-3-Clause License",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sokolovsky Artem S.",
