@@ -14,7 +14,7 @@ composer require c7v/yii-yandex-turbo-pages-api
 либо указать в composer.json
 
 ```
-"c7v/yii-yandex-turbo-pages-api": "dev-main"
+"c7v/yii-yandex-turbo-pages-api": "0.0.2"
 ```
 
 ## Примеры использования:
