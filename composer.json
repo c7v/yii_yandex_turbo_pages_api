@@ -13,7 +13,7 @@
             "email": "artem@sokolovsky.dev"
         }
     ],
-    "minimum-stability": "0.0.1",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "c7v\\yii_yandex_turbo_pages_api\\": "src"
