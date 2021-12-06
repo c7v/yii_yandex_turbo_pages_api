@@ -22,7 +22,7 @@ class Turbo extends Component
     /** @var string */
     public $host;
 
-    public function __construct($config = [])
+    public function __construct(array $config = [])
     {
         $this->token = $config['token'];
         if ($this->token == null) {
@@ -48,7 +48,8 @@ class Turbo extends Component
      * @return mixed
      * @throws \yii\httpclient\Exception
      */
-    public function getIdUser() {
+    public function getIdUser()
+    {
         $this->response = $this->request->setUrl('user')->send();
 
         if ($this->response->getIsOk()) {
@@ -57,8 +58,9 @@ class Turbo extends Component
         throw new \Exception($this->response->getData()['error_message']);
     }
 
-    public function getStatus(int $id_user, string $status) {
-        $this->response = $this->request->setUrl('user/' .$id_user. '/hosts/' . $this->host . '/turbo/tasks/' . $status)->send();
+    public function getStatus(int $id_user, string $status)
+    {
+        $this->response = $this->request->setUrl('user/' . $id_user . '/hosts/' . $this->host . '/turbo/tasks/' . $status)->send();
 
         if ($this->response->getIsOk()) {
             return $this->response->getData();
@@ -71,7 +73,8 @@ class Turbo extends Component
      * @return mixed
      * @throws \yii\httpclient\Exception
      */
-    public function getUploadAddress(int $id_user) {
+    public function getUploadAddress(int $id_user)
+    {
         $this->response = $this->request
             ->setUrl('user/' . $id_user . '/hosts/' . $this->host . '/turbo/uploadAddress?mode=PRODUCTION')
             ->send();
@@ -89,12 +92,13 @@ class Turbo extends Component
      * @throws \yii\base\InvalidConfigException
      * @throws \yii\httpclient\Exception
      */
-    public function uploadFile(string $url, string $dir_file){
+    public function uploadFile(string $url, string $dir_file)
+    {
         $this->response = $this->request->setFullUrl($url)
-        ->setMethod('POST')
-        ->addHeaders([
-            'content-type' => 'application/rss+xml',
-        ])->setContent(file_get_contents($dir_file))->send();
+            ->setMethod('POST')
+            ->addHeaders([
+                'content-type' => 'application/rss+xml',
+            ])->setContent(file_get_contents($dir_file))->send();
 
         if ($this->response->getIsOk()) {
             return $this->response->getData();
