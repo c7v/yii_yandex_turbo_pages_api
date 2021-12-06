@@ -2,6 +2,8 @@
 
 Этот пакет позволяет выгружать RSS Feed через API.
 
+[![Latest Stable Version](http://poser.pugx.org/c7v/yii_yandex_turbo_pages_api/v)](https://packagist.org/packages/c7v/yii_yandex_turbo_pages_api) [![Total Downloads](http://poser.pugx.org/c7v/yii_yandex_turbo_pages_api/downloads)](https://packagist.org/packages/c7v/yii_yandex_turbo_pages_api) [![Latest Unstable Version](http://poser.pugx.org/c7v/yii_yandex_turbo_pages_api/v/unstable)](https://packagist.org/packages/c7v/yii_yandex_turbo_pages_api) [![License](http://poser.pugx.org/c7v/yii_yandex_turbo_pages_api/license)](https://packagist.org/packages/c7v/yii_yandex_turbo_pages_api) [![PHP Version Require](http://poser.pugx.org/c7v/yii_yandex_turbo_pages_api/require/php)](https://packagist.org/packages/c7v/yii_yandex_turbo_pages_api)
+
 ## Установка
 Установить можете с помощью composer
 
