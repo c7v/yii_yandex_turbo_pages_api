@@ -8,13 +8,13 @@
 Установить можете с помощью composer
 
 ```
-composer require c7v/yii-yandex-turbo-pages-api
+composer require c7v/yii_yandex_turbo_pages_api
 ```
 
 либо указать в composer.json
 
 ```
-"c7v/yii-yandex-turbo-pages-api": "0.0.2"
+"c7v/yii_yandex_turbo_pages_api": "0.0.2"
 ```
 
 ## Примеры использования:
