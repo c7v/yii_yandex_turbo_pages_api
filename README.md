@@ -37,7 +37,7 @@ composer require c7v/yii_yandex_turbo_pages_api
 ```
 #### Получения ID пользователя через компонент:
 ```php
-    Yii::$app->turbo->getIdUser();
+Yii::$app->turbo->getIdUser();
 ```
 
 ### Пример запроса статуса выгрузки:
